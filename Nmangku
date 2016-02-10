@@ -1,0 +1,131 @@
+Software
+Describe the following in one sentence or less:
+
+ASP.NET Master Pages : Parent pages which contains other  (child) pages, also conduct as template pages.
+
+User Controls :  custom and reusable web server controls, started the syntax with “@ Control”.
+
+Server Controls :  objects on ASP.NET Web pages that run the codes ( asp.net tags) that understood by server.
+
+Data Source Controls : controls that allow us to connect with different type of data source (databases, xml files, other data objects)
+
+Data Bound Controls : data source controls that bind the data to present/display and manipulate the data.
+
+Design Patterns
+      MVC : a design pattern that organize the web apps to Model, View and Controller.
+      Singleton : a design pattern that only allows instantiation of a class to only one object. For an example : login system in an application.
+Provider :   a design pattern invented by Microsoft and work in Microsoft Frameworks) that allows the developers to create pluggable components to inherit from a base class.
+
+What is the difference between ASP.NET and ASP? ASP (classic ASP) uses VB.net , not OOP, and not running in .NET frameworks while ASP.net are multi languages (VB.Net, C#, HTML), OOP, and running on .NET environment.
+
+What is the difference between ASP.NET , ColdFusion, and JSP : ALL are web application but ASP.net belongs to Microsoft, ColdFusion is Adobe product and JSP is an Java technology running on JVM.
+
+Describe how MVC is implemented in ASP.NET :  a development architecture model in ASP.NET where  Model (data), Controller (coding), and View (presentation) are organized separately.
+Model (data) is created first then Controller is created to determine the behaviors of the data and how the data to be presented in View. So Controller is the entity who control  Model and View in a web application.
+
+How can open source and .NET be compliant?
+.NET uses some components from open source such as Angularjs, bootstraps, jQuery, etc. It can be done using NuGet Package Manager. Now NET Core is Open Source too.
+
+Describe the last web application you created, regardless of language it was
+implemented in, and describe its function:
+
+developed an ASP.NET (MVC5 , EF, bootstrap, fancybox) website http://nmangkudihardjo.com
+it’s personal homepage.
+
+List some Frameworks that you know of other than .NET in other languages /
+platforms:
+MEAN stack, Xcode IOS, Drupal, Wordpress, jQuery
+
+Database
+Describe the following in one sentence or less:
+Database : collection of information stored including data and other related programmable entities to manage the access and the data manipulations. This consists tables, views, stored procedures, functions, etc.
+
+Tables : a set of data elements consisting data values, rows, and columns.
+
+Views : datasets as a result of  queries.
+
+Columns : fields or headers of a table called also attributes.
+
+Stored Procedures : sets of instruction to database (running through execution) in order to run a specific operation or order. This is very helpful to put frequently statements into stored procedures in order to run it simply by using a sort command (exec [stored procedure name])
+
+Functions :  sets of instruction to database running in statements (select, update, delete) ie : select functionName()
+
+Name some of the differences between Microsoft Access and SQL Server
+Express
+Ms Access : RAD, simple structure, no trigger, small capacity, jet database engine, different type of data naming (text, memo, etc), VBscript, different sql syntax (ie. use “iif”, where like ‘*keyword*’).
+
+Ms SQL Server :  pure database, big capacity, secure structure, T-SQL,  recommended to run in certain specific machine with big memory such as servers.
+
+Why is SQL Server better than MySQL or vice versa?
+It depends.
+SQL server is very good working on other Microsoft product such as Windows, Visual Studio, SharePoint, etc.  SQL server has bigger capacity. For business is recommended to use SQL server since Microsoft is a trusted software company and the products are widely used.
+
+MySQL is very good for web server application especially with the integrated one such as Wordpress, Drupal, Joomla, etc. And to software developers who use PHP. The price is cheaper than SQL server and open source, but it can handle data smaller.
+
+Systems
+Describe the following in one sentence or less:
+Web Server : server that home of web application that responds http requests.
+
+Operating System : software that manage computer machine and base system for other installed applications such as Microsoft offices, computer games, internet browsers.
+The samples of operating system : Ms Windows, OS, Linux, UNIX.
+
+Database Server : a computer serves database services (to client-computers) 
+
+GAC : a cache that controls the address for Common Language Infrastructure (CLI).
+
+Assemblies : a low level language that talks with machine using machine code instructions.
+
+Web.Config : a main file that consists configuration and setting for ASP.NET.
+
+CMS :  a software system to develop web application that provides complete tools to manage, author, and collaborate with less coding needed.
+
+Portal : a gateway that has a function as an access point to information on the Internet.
+
+CRM :  a terminology on internet that refer to a strategy or practice by company  to interact with customers. Ie: salesforce
+
+Source Control : a system to manage storage of files or sources of software developed and track/record any update or change during development. Ie : git, TFS, teamcity.
+
+What is the difference between Apache and IIS?
+Apache : web sever which is mostly running on Unix or Linux system. It’s open source.
+IIS :  web server which is running on windows system and developed by Microsoft.
+
+Does ASP.NET run on non Windows operating systems? If so, how?
+Yes. It does but Windows operating system is recommended.
+It can be run on non-windows operating system by using Mono.
+
+
+How do you develop an asp.net application locally and deploy it remotely?
+Describe any scenario.
+Install Visual Studio on local machine and deploy it using FTP.
+
+How do you run asp.net applications in the "cloud?" This is purposely an open ended question.
+Use Microsoft Azure.
+
+Interfaces
+Describe the following in one sentence or less:
+
+Wireframes : a visual guide to arrange elements of website’s contents.
+Photoshop Mocks : templates for Photoshop in order enhance quality of visual design.
+
+HTML / CSS / JavaScript Mock templates created for and use HTML, CSS and JavaScript in order enhance quality of visual design and simplify coding development process.
+
+Theming : a package containing graphical appearance details on an (web) app.
+
+Layouts : the arrangement of visual elements on a page of apps or website.
+
+Native App :  app running on native executable programs without any external support.
+
+Hybrid App :  app developed with both the native and HTML5 technology.
+
+Mobile Web App : a mobile internet app created to run on web browsers. 
+
+Why is a wireframe needed when building interfaces? Why is not ?
+Because it helps on visualization of the interface design, that eases designers to arrange/organize.
+
+If given an HTML/CSS/JS theme , how would you go about implementing the
+theme into a Dynamic web application OR an existing CMS? Choose one
+scenario and describe your strategy.
+If it will be implemented into  Wordpress or Drupal, copy the files into “themes” directory in the file system. Then go to administration menu on the  CMS app and find a sub menu refer to theme installation. Since every version of CMS has different steps of installation, we can go to help menu to fond out the steps.
+
+What is a responsive layout / design?
+an approach of interface design to provide an optimal viewing and interaction experience of easy reading and navigation across a wide range of devices (pc monitors, tablets, mobile phones).
